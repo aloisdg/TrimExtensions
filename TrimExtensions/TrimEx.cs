@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TrimExtensions
 {
-    public class Class1
+    public class TrimEx
     {
     }
 }
