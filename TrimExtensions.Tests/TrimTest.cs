@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace TrimExtensions.Tests {
     [TestFixture]
-    public class UnitTest {
+    public class TrimTest {
         [TestCase ("ab;cd;ef", ";", ExpectedResult = "ab")]
         public string TestTrimAfterFirstOf(string source, string delimiter) {
             var actual = source.TrimAfterFirstOf (delimiter);
